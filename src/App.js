@@ -7,6 +7,10 @@ import "shards-ui/dist/css/shards.min.css";
 import FormExample from './components/FormExample';
 import NavExample from './components/NavExample';
 import BasicFormTextarea from './components/BasicFormTextarea';
+import Auth from './Auth/Auth.js';
+
+// const auth = new Auth();
+// auth.login();
 
 
 class App extends Component {
