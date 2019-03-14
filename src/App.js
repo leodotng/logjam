@@ -6,6 +6,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css";
 import FormExample from './components/FormExample';
 import NavExample from './components/NavExample';
+import BasicFormTextarea from './components/BasicFormTextarea';
+
 
 class App extends Component {
   render() {
@@ -22,6 +24,7 @@ class App extends Component {
       <FormExample />
       Add Team Member # 2
       <FormExample />
+      <BasicFormTextarea />
       <Button>Submit</Button>
       <Button theme="danger">Cancel</Button>
       </div>
